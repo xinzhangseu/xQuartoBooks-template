@@ -1,0 +1,48 @@
+\maketitle
+\clearpage
+\mbox{}\thispagestyle{empty}
+\clearpage
+
+% ======== Front matter (Roman page numbers) ========
+\frontmatter
+\pagenumbering{Roman}
+\markright{}
+
+% Override Pandoc's English defaults (this runs after all \AtBeginDocument hooks)
+\renewcommand*\contentsname{目录}
+\renewcommand*\listfigurename{图索引}
+\renewcommand*\listtablename{表索引}
+\renewcommand*\figurename{图}
+\renewcommand*\tablename{表}
+
+% Apply fancy page style for front matter
+\pagestyle{fancy}
+
+% --- Chinese theorem/proof names (redefine via \let + \newtheorem) ---
+\makeatletter
+\let\theorem\relax\let\c@theorem\relax
+\let\lemma\relax\let\c@lemma\relax
+\let\corollary\relax\let\c@corollary\relax
+\let\definition\relax\let\c@definition\relax
+\let\proposition\relax\let\c@proposition\relax
+\let\example\relax\let\c@example\relax
+\let\remark\relax\let\c@remark\relax
+\makeatother
+\newtheorem{theorem}{定理}[section]
+\newtheorem{lemma}{引理}[section]
+\newtheorem{corollary}{推论}[section]
+\newtheorem{definition}{定义}[section]
+\newtheorem{proposition}{命题}[section]
+\newtheorem{example}{例}[section]
+\newtheorem{remark}{注}[section]
+\renewcommand{\proofname}{证明}
+
+% --- Table of Contents (manually generated, Quarto toc is disabled) ---
+{
+\setcounter{tocdepth}{$toc-depth$}
+\tableofcontents
+}
+
+% ======== Main matter (Arabic page numbers) ========
+\mainmatter
+\pagestyle{fancy}

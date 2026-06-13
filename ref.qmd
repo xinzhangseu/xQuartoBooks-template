@@ -1,0 +1,9 @@
+---
+format:
+  xbook-cn-pdf:
+    exclude: true
+---
+
+# 参考文献 {.unnumbered}
+::: {#refs}
+:::

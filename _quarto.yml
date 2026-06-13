@@ -1,0 +1,102 @@
+project:
+  type: book
+  output-dir: _book
+
+
+
+book:
+  title: "概率论讲义"
+  author:
+    - id: xz
+      name: 张鑫
+      affiliations:
+        - name: 东南大学
+          department: 数学学院
+          city: 南京
+          country: 中国
+          postal-code: 211189
+      orcid: 0000-0001-6670-5351
+      email: xzhangseu@seu.edu.cn
+      url: https://math.seu.edu.cn/zx_en/list.htm
+      #attributes:
+        #corresponding: true
+      bio: |
+        Xin Zhang is a professor at the School of Mathematics, Southeast University.
+        His research interests include stochastic control theory and its applications
+        in finance and insurance.
+    #- name: John Doe
+      #affiliations:
+      #  - name: Anonymous University
+      #bio: |
+      #  John Doe is a researcher at Anonymous University.
+
+
+
+  chapters:
+    - index.qmd
+    - chap1.qmd
+    - chap2.qmd
+    - ref.qmd
+
+  site-url: https://prob.xzhang.ink/
+  downloads: [pdf]
+  sharing: [twitter,facebook]
+  page-navigation: true
+
+  sidebar:
+    ## collapse-level: 1
+    search: true
+    title: false
+    logo: "images/openscapes_hex.png"
+    logo-alt: "Openscapes hex logo (test)"
+    pinned: true
+    align: center
+    style: "docked"
+    tools:
+      - icon: globe
+        href: https://www.xzhang.ink
+        text: "xzhang.ink"
+      - icon: github
+        href: https://github.com/xinzhangseu/Prob-2023
+        ## text: "Quarto website tutorial"
+      - icon: twitter
+        href: https://twitter.com/xzhangnj
+        text: "My Twitter"
+  page-footer:
+    left: |
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Xin Zhang</span>
+      <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} Creative Commons CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)</span>
+    center: |
+      <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
+      <span class="faux-block">{{< fa key >}} [PGP public key]({{< var pgp.key >}}) &emsp; {{< fa fingerprint >}} Fingerprint:</strong><br><span class="fingerprint">{{< var pgp.fingerprint >}}</span></span>
+    right: |
+      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+      <span class="faux-block">[View the source at {{< fa brands github >}} GitHub]({{< var github-url >}})</span>
+
+
+
+bibliography: references.bib
+
+
+
+format:
+  html:
+    lang: zh
+    html-math-method: katex
+    mainfont: Times New Roman
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    toc: false
+    css: styles.css
+    crossref:
+      chapters: true
+      eq-prefix: ""
+    number-depth: 2
+    self-contained: true
+
+  xbook-cn-pdf:
+    pdf-engine: xelatex
+    toc: false
+
+editor: visual
