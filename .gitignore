@@ -1,5 +1,4 @@
 # ---- Build output ----
-_book/
 _freeze/
 
 # ---- LaTeX compilation artifacts ----
