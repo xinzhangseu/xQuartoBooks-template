@@ -26,10 +26,3 @@ _freeze/
 .Rhistory
 .quarto/
 .vscode/
-
-# ---- Personal / non-template files ----
-pgp_xzhang.asc.txt
-images/pull.png
-images/render-commit-push.png
-images/openscapes_hex.png
-_publish.yml

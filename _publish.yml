@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: "8c2c0ea3-733c-46b6-93a1-9dceac43ba54"
+      url: "https://macsoftset.netlify.app"
