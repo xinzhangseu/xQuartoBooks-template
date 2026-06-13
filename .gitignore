@@ -1,5 +1,5 @@
 # ---- Build output ----
-_book/
+
 _freeze/
 
 # ---- LaTeX compilation artifacts ----
@@ -26,3 +26,6 @@ _freeze/
 .Rhistory
 .quarto/
 .vscode/
+
+/.quarto/
+**/*.quarto_ipynb
