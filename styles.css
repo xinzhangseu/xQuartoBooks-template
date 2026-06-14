@@ -15,9 +15,12 @@
     display: none !important;
 }
 
-/* 彻底隐藏页面顶部的标题块（包含标题、作者、发布日期等） */
+/* 隐藏首页的标题块（书名、作者、日期），但不影响章节页的章标题 */
 header#title-block-header {
     display: none !important;
+}
+header#title-block-header:has(.chapter-number) {
+    display: block !important;
 }
 
 
@@ -32,7 +35,7 @@ header#title-block-header {
 /* 3. 将左侧导航栏死死钉在第 1 列，并允许它向下跨越多个虚拟行 */
 #quarto-sidebar {
     grid-column: 1 / 2 !important;
-    grid-row: 1 / 10 !important; 
+    grid-row: 1 / 10 !important;
 }
 
 
@@ -45,7 +48,7 @@ main.content {
     margin: 0 auto !important;
     width: 100% !important;
     /* 核心修改：上 70px，右 50px，下 30px，左 50px */
-    padding: 70px 50px 30px 50px !important; 
+    padding: 70px 50px 30px 50px !important;
     box-sizing: border-box !important;
 }
 
@@ -91,11 +94,11 @@ main.content h1, main.content h2, main.content h3, main.content p, #title-block-
         min-height: 100vh !important;
         top: 0 !important;                /* 紧贴浏览器最顶部 */
         position: sticky !important;      /* 无论右侧怎么滚动，左侧永远钉在原位 */
-        
+
         /* 下面两行是为了增加 Gitbook 那样的视觉分界线（可选，但强烈推荐） */
         /*background-color: #f9f9f9 !important;       /* 给侧边栏加上极浅的灰色背景 */
         border-right: 0px solid #eaeaea !important; /* 在右侧画一条细细的分割线 */
-        
+
         overflow-y: auto !important;      /* 如果左侧目录项太多，允许左侧边栏内部独立上下滑动 */
     }
 }

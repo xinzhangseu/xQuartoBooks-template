@@ -2,11 +2,11 @@
   {
     "objectID": "chap1.html",
     "href": "chap1.html",
-    "title": "1  中国",
+    "title": "1  测试",
     "section": "",
-    "text": "1.1 中国\n人民\n人民\n我们将通过三个步骤定义可测函数的积分。首先定义非负简单函数的积分。以下设 E 是 \\mathcal{R}^n 中的可测集。",
+    "text": "1.1 Introduction\n我们将通过三个步骤定义可测函数的积分。首先定义非负简单函数的积分。以下设 E 是 \\mathcal{R}^n 中的可测集。\nThis file is a sample book demonstrating Quarto’s capabilities with the standard LaTeX book document class. It supports PDF (via LaTeX) output. It is assumed that the reader has a basic working knowledge of stochastic calculus Karatzas 和 Shreve (1991年) and stochastic control theory Yong 和 Zhou (1999年).\nIntroduction ## acv\nIntroduction",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>中国</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>测试</span>"
     ]
   },
   {
@@ -42,11 +42,11 @@
   {
     "objectID": "chap1.html#test-for-cosmo",
     "href": "chap1.html#test-for-cosmo",
-    "title": "1  中国",
-    "section": "1.4 test for cosmo",
-    "text": "1.4 test for cosmo\nIntroductionIntroductionIntroduction\n\n\n\n\nKaratzas, Ioannis, 和 Steven E. Shreve. 1991年. Brownian Motion and Stochastic Calculus. Springer New York. https://doi.org/10.1007/978-1-4612-0949-2.\n\n\nYong, Jiongmin, 和 Xunyu Zhou. 1999年. Stochastic Controls: Hamiltonian Systems and HJB Equations. Stochastic Modelling and Applied Probability. Springer New York. https://doi.org/10.1007/978-1-4612-1466-3.",
+    "title": "1  测试",
+    "section": "1.2 test for cosmo",
+    "text": "1.2 test for cosmo\nIntroductionIntroductionIntroduction\n\n\n\n\nKaratzas, Ioannis, 和 Steven E. Shreve. 1991年. Brownian Motion and Stochastic Calculus. Springer New York. https://doi.org/10.1007/978-1-4612-0949-2.\n\n\nYong, Jiongmin, 和 Xunyu Zhou. 1999年. Stochastic Controls: Hamiltonian Systems and HJB Equations. Stochastic Modelling and Applied Probability. Springer New York. https://doi.org/10.1007/978-1-4612-1466-3.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>中国</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>测试</span>"
     ]
   },
   {
@@ -67,6 +67,46 @@
     "text": "Karatzas, Ioannis, and Steven E. Shreve. 1991. Brownian Motion and\nStochastic Calculus. Springer New York. https://doi.org/10.1007/978-1-4612-0949-2.\n\n\nYong, Jiongmin, and Xunyu Zhou. 1999. Stochastic Controls:\nHamiltonian Systems and HJB Equations. Stochastic Modelling and\nApplied Probability. Springer New York. https://doi.org/10.1007/978-1-4612-1466-3.",
     "crumbs": [
       "参考文献"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "概率论讲义",
+    "section": "",
+    "text": "Introduction\nIntroduction",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#measure",
+    "href": "index.html#measure",
+    "title": "概率论讲义",
+    "section": "Measure",
+    "text": "Measure",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#introduction-1",
+    "href": "index.html#introduction-1",
+    "title": "概率论讲义",
+    "section": "Introduction",
+    "text": "Introduction",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#introductionintroductionintroduction",
+    "href": "index.html#introductionintroductionintroduction",
+    "title": "概率论讲义",
+    "section": "IntroductionIntroductionIntroduction",
+    "text": "IntroductionIntroductionIntroduction\nIntroduction",
+    "crumbs": [
+      "Introduction"
     ]
   }
 ]

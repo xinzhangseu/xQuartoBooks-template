@@ -99,4 +99,4 @@ format:
     pdf-engine: xelatex
     toc: false
 
-editor: visual
+# editor: visual

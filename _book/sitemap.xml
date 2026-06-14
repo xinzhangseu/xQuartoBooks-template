@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://prob.xzhang.ink/chap1.html</loc>
-    <lastmod>2026-06-13T15:00:36.419Z</lastmod>
+    <lastmod>2026-06-14T12:50:38.056Z</lastmod>
   </url>
   <url>
     <loc>https://prob.xzhang.ink/chap2.html</loc>
-    <lastmod>2026-06-13T15:00:36.419Z</lastmod>
+    <lastmod>2026-06-14T12:51:21.282Z</lastmod>
   </url>
   <url>
     <loc>https://prob.xzhang.ink/ref.html</loc>
     <lastmod>2026-06-13T15:00:36.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://prob.xzhang.ink/index.html</loc>
+    <lastmod>2026-06-14T12:51:34.101Z</lastmod>
   </url>
 </urlset>
