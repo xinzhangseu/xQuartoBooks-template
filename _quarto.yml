@@ -8,22 +8,20 @@ book:
   title: "概率论讲义"
   author:
     - id: xz
-      name: 张鑫
+      name: Your Name
       affiliations:
-        - name: 东南大学
-          department: 数学学院
-          city: 南京
-          country: 中国
-          postal-code: 211189
-      orcid: 0000-0001-6670-5351
-      email: xzhangseu@seu.edu.cn
-      url: https://math.seu.edu.cn/zx_en/list.htm
+        - name: Your University
+          department: Your Department
+          city: Your City
+          country: Your Country
+          postal-code: 000000
+      orcid: 0000-0000-0000-0001
+      email: your.email@university.edu
+      url: https://your-university.edu/your-profile
       #attributes:
         #corresponding: true
       bio: |
-        Xin Zhang is a professor at the School of Mathematics, Southeast University.
-        His research interests include stochastic control theory and its applications
-        in finance and insurance.
+        Your bio text here. Briefly describe your research interests and background.
     #- name: John Doe
       #affiliations:
       #  - name: Anonymous University
@@ -38,7 +36,7 @@ book:
     - chap2.qmd
     - ref.qmd
 
-  site-url: https://prob.xzhang.ink/
+  site-url: https://your-site.example.com/
   downloads: [pdf]
   sharing: [twitter,facebook]
   page-navigation: true
@@ -54,17 +52,17 @@ book:
     style: "docked"
     tools:
       - icon: globe
-        href: https://www.xzhang.ink
-        text: "xzhang.ink"
+        href: https://your-website.com
+        text: "Your Website"
       - icon: github
-        href: https://github.com/xinzhangseu/Prob-2023
+        href: https://github.com/yourusername/yourrepo
         ## text: "Quarto website tutorial"
       - icon: twitter
-        href: https://twitter.com/xzhangnj
+        href: https://twitter.com/yourusername
         text: "My Twitter"
   page-footer:
     left: |
-      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Xin Zhang</span>
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Your Name</span>
       <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-sa >}} Creative Commons CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)</span>
     center: |
       <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
@@ -93,7 +91,7 @@ format:
       chapters: true
       eq-prefix: ""
     number-depth: 2
-    self-contained: true
+    self-contained: false
 
   xbook-cn-pdf:
     pdf-engine: xelatex
